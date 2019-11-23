@@ -1,0 +1,23 @@
+
+@import url("https://fonts.googleapis.com/css?family=Muli|Nunito|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli|Nunito|Roboto|Rubik&display=swap");
+//
+@import "/src/components/app/app.scss";
+@import "/src/components/app-header/app-header.scss";
+@import "/src/components/item-add-form/item-add-form.scss";
+@import "/src/components/item-status-filter/item-status-filter.scss";
+@import "/src/components/noty-info/noty.scss";
+@import "/src/components/search-panel/search-panel.scss";
+@import "/src/components/todo-list-item/todo-list-item.scss";
+@import "/src/components/todo-list/todo-list.scss";
+
+
+
+#root {
+	height: 100vh;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}

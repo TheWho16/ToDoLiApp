@@ -112,6 +112,9 @@ export default class App extends Component {
     const visibleItems = this.searchItems(this.filterItems(items, filter), search);
 
     return (
+      <div className="wrapper">
+
+  
       <div className="todo-app">
         <AppHeader toDo={toDoCount} done={doneCount}/>
 
@@ -132,6 +135,7 @@ export default class App extends Component {
 
         <ItemAddForm
           onItemAdded={this.onItemAdded} />
+      </div>
       </div>
     );
   };

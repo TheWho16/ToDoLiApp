@@ -1,4 +1,32 @@
+body {
+  position: relative;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgba(45, 176, 224, 1);
+  background: -moz-linear-gradient(45deg, rgba(45, 176, 224, 1) 0%, rgba(96, 40, 168, 1) 100%);
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, rgba(45, 176, 224, 1)),
+    color-stop(100%, rgba(96, 40, 168, 1))
+  );
+  background: -webkit-linear-gradient(45deg, rgba(45, 176, 224, 1) 0%, rgba(96, 40, 168, 1) 100%);
+  background: -o-linear-gradient(45deg, rgba(45, 176, 224, 1) 0%, rgba(96, 40, 168, 1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(45, 176, 224, 1) 0%, rgba(96, 40, 168, 1) 100%);
+  background: linear-gradient(45deg, rgba(45, 176, 224, 1) 0%, rgba(96, 40, 168, 1) 100%);
+}
+.wrapper {
+  margin-top: 6.6%;
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: rgb(179, 245, 240);
+  box-shadow: 0 0 10px 5px #2cc9bc;
+}
+
 .todo-app {
-  margin: 2rem auto 0 auto;
-  max-width: 500px;
+  padding: 0 0 5% 0;
 }
