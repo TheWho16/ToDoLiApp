@@ -25,8 +25,10 @@ body {
   text-align: center;
   background: rgb(179, 245, 240);
   box-shadow: 0 0 10px 5px #2cc9bc;
+  max-height: 340px;
+  min-height: 350px;
 }
 
 .todo-app {
-  padding: 0 0 5% 0;
+  padding: 0 0 10% 0;
 }
